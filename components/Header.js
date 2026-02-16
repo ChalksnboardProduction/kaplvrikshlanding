@@ -13,8 +13,8 @@ export default function Header() {
                 >
                     <div className="relative h-full w-48 md:w-96 overflow-hidden rounded-lg">
                         <Image
-                            src="/sapling-logo.webp"
-                            alt="Saplings Logo"
+                            src="/logo-bifs.webp"
+                            alt="BIFS Logo"
                             fill
                             className="object-contain"
                             priority

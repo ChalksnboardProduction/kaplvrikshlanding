@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'saplings',
+      name: 'bhatnagar-foundation',
       script: 'npm',
       args: 'start',
       env: {
