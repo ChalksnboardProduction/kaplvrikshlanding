@@ -13,12 +13,12 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "Bhatnagar International Foundation School - Admission Enquiry",
-  description: "Admission Enquiry Portal for Bhatnagar International Foundation School",
+  title: "Kalp Vriksh Public School - Admission Enquiry",
+  description: "Admission Enquiry Portal for Kalp Vriksh Public School",
   icons: {
-    icon: "/download.jpg",
-    shortcut: "/download.jpg",
-    apple: "/download.jpg",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
 };
 

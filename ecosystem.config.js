@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'bhatnagar-foundation',
+      name: 'kalp-vriksh-public-school',
       script: 'npm',
       args: 'start',
       env: {

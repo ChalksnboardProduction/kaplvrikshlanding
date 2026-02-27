@@ -85,7 +85,7 @@ export default function Home() {
       {/* Banner Section - Full Width */}
       <div className="w-full relative mt-16 md:mt-24">
         <Image
-          src="/2.png"
+          src="/kalpvriksh.png"
           alt="School Banner"
           width={1920}
           height={600}
@@ -110,13 +110,13 @@ export default function Home() {
             <div className="space-y-4 text-gray-700 leading-relaxed text-sm lg:text-base text-justify">
               <h2 className="text-3xl font-bold text-[#081349] mb-4">Admission Process</h2>
               <p>
-                We are delighted that you are considering Bhatnagar International Foundation School as the ideal Foundation School for your child’s educational journey. Our admission process is thoughtfully structured to welcome students who resonate with our core values, contribute positively to our inclusive school culture, and demonstrate a genuine curiosity for learning. We look forward to partnering with you on this important journey.
+                We are delighted that you are considering Kalp Vriksh Public School as the ideal school for your child’s educational journey. Our admission process is thoughtfully structured to welcome students who resonate with our core values, contribute positively to our inclusive school culture, and demonstrate a genuine curiosity for learning. We look forward to partnering with you on this important journey.
               </p>
               <p>
-                To begin the admission process, we invite parents to submit an online inquiry through our website. The easy-to-navigate inquiry form serves as the first step toward securing admission at one of the leading Foundation Schools.
+                To begin the admission process, we invite parents to submit an online inquiry through our website. The easy-to-navigate inquiry form serves as the first step toward securing admission at one of the leading schools.
               </p>
               <p>
-                Parents are warmly encouraged to visit our campus for a guided school tour. This visit offers a firsthand experience of our state-of-the-art facilities, academic environment, and the vibrant culture that defines life at Bhatnagar International Foundation School. Experiencing the campus in person helps families better understand our educational philosophy.
+                Parents are warmly encouraged to visit our campus for a guided school tour. This visit offers a firsthand experience of our state-of-the-art facilities, academic environment, and the vibrant culture that defines life at Kalp Vriksh Public School. Experiencing the campus in person helps families better understand our educational philosophy.
               </p>
               <p>
                 After the successful submission of the online inquiry form, parents will receive an email containing a link to the detailed admission application. We request that all information regarding the student and family be filled in accurately and completely. Mandatory documents such as the child’s birth certificate, previous academic records, and relevant medical details must be uploaded as part of the application process.
@@ -141,7 +141,7 @@ export default function Home() {
                   Student Registration
                 </h1>
                 <p className="text-gray-200">
-                  Join Bhatnagar International Foundation School family. Please fill out the details below.
+                  Join Kalp Vriksh Public School family. Please fill out the details below.
                 </p>
               </div>
 
@@ -204,6 +204,9 @@ export default function Home() {
                         <option value="3">Class 3</option>
                         <option value="4">Class 4</option>
                         <option value="5">Class 5</option>
+                        <option value="6">Class 6</option>
+                        <option value="7">Class 7</option>
+                        <option value="8">Class 8</option>
                       </select>
                     </div>
                   </div>
@@ -309,15 +312,15 @@ export default function Home() {
           <div className="mb-8 text-center">
             <h3 className="text-2xl font-bold text-[#081349] mb-2">Experience Excellence</h3>
             <p className="text-gray-600">
-              Discover what makes Bhatnagar International Foundation School a premier institution for your child's holistic development.
+              Discover what makes Kalp Vriksh Public School a premier institution for your child's holistic development.
             </p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-[#081349] aspect-video w-full">
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/KgmSf_TKbMQ?autoplay=1&mute=1&loop=1&playlist=KgmSf_TKbMQ"
-              title="Bhatnagar International Foundation School Video"
+              src="https://www.youtube.com/embed/Ad_eI8F9vIM?autoplay=1&mute=1&loop=1&playlist=Ad_eI8F9vIM"
+              title="Kalp Vriksh Public School Video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
