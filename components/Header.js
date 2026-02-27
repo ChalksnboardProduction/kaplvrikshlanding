@@ -16,14 +16,16 @@ const Navbar = () => {
             <div className="max-w-[1600px] mx-auto relative z-10 w-full">
                 {/* Shield & Logo (Desktop only) */}
                 <div className="hidden md:block absolute top-0 left-4 sm:left-8 md:left-12 lg:left-[5%] xl:left-[8%] w-[110px] md:w-[130px] lg:w-[160px]">
-                    <Image
-                        src="/Vector 1.svg"
-                        alt="Shield background"
-                        width={160}
-                        height={140}
-                        className="w-full h-auto drop-shadow-md"
-                        priority
-                    />
+                    <Link href="https://kalpvrikshpublicschool.com/">
+                        <Image
+                            src="/Vector 1.svg"
+                            alt="Shield background"
+                            width={160}
+                            height={140}
+                            className="w-full h-auto drop-shadow-md"
+                            priority
+                        />
+                    </Link>
                     <div className="absolute inset-0 flex justify-center pt-5 md:pt-6 lg:pt-[32px]">
                         <div className="relative w-[60px] h-[60px] md:w-[70px] md:h-[70px] lg:w-[85px] lg:h-[85px]">
                             <Image
@@ -60,9 +62,11 @@ const Navbar = () => {
 
                     {/* Mobile Logo & Title */}
                     <div className="md:hidden flex items-center gap-3">
-                        <div className="relative w-[45px] h-[45px]">
-                            <Image src="/ab/Reportcard KVPS 1.png" alt="Logo" fill className="object-contain" />
-                        </div>
+                        <Link href="https://kalpvrikshpublicschool.com/">
+                            <div className="relative w-[45px] h-[45px]">
+                                <Image src="/ab/Reportcard KVPS 1.png" alt="Logo" fill className="object-contain" />
+                            </div>
+                        </Link>
                         <div className="flex flex-col text-[#315671] font-bold leading-[1.15]">
                             <span className="text-[17px]">Kalp Vriksh</span>
                             <span className="text-[17px]">Public School</span>
@@ -71,7 +75,7 @@ const Navbar = () => {
 
                     {/* Links desktop */}
                     <nav className="hidden lg:flex items-center space-x-2 xl:space-x-4 text-[14px] xl:text-[15px] font-bold text-[#1f2937]">
-                        <Link href="/" className="hover:text-[#FFB800] transition">Home</Link>
+                        <Link href="https://kalpvrikshpublicschool.com/" className="hover:text-[#FFB800] transition">Home</Link>
                         <Link href="https://kalpvrikshpublicschool.com/about" className="hover:text-[#FFB800] transition">About Us</Link>
                         <Link href="https://kalpvrikshpublicschool.com/admissions" className="hover:text-[#FFB800] transition">Admissions</Link>
                         <Link href="https://kalpvrikshpublicschool.com/mandatory-disclosure" className="hover:text-[#FFB800] transition whitespace-nowrap">Mandatory Disclosure</Link>
@@ -131,7 +135,7 @@ const Navbar = () => {
 
                     {/* Links */}
                     <nav className="flex flex-col space-y-6 text-white font-semibold text-[15px]">
-                        <Link href="/" onClick={() => setIsMenuOpen(false)}>Home</Link>
+                        <Link href="https://kalpvrikshpublicschool.com/" onClick={() => setIsMenuOpen(false)}>Home</Link>
                         <Link href="https://kalpvrikshpublicschool.com/about" onClick={() => setIsMenuOpen(false)}>About Us</Link>
                         <Link href="https://kalpvrikshpublicschool.com/admissions" onClick={() => setIsMenuOpen(false)}>Admissions</Link>
                         <Link href="https://kalpvrikshpublicschool.com/mandatory-disclosure" onClick={() => setIsMenuOpen(false)}>Mandatory Disclosure</Link>
